@@ -43,7 +43,7 @@
 #
 # Copyright 2018 Your name here, unless otherwise noted.
 #
-class nigix (
+class nginx (
 
   String $ensure                       = $::nginx::params::ensure,
   String $package_name                 = $::nginx::params::package_name,
